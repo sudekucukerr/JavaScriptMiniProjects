@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css" type="text/css"/>
+    <script></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+    <div class="sayfa">
+      <section class="kafa">
+      <h1>Calculator</h1>
+      </section>
+      <table>
+        <tr>
+          <td colspan="5" id="islem"> </td>
+        </tr>
+        <br>
+        <!-- <tr>
+          <td colspan="5" id="gosterge">.</td>
+        </tr> -->
+        <tr> 
+          <td class="btn"><a href="#/" onclick="operatör(this);">%</a></td>
+          <td class="btn"><a href="#/">CE</a></td>
+          <td class="btn"><a href="#/" onclick="Clear();">C</a></td>
+          <td class="btn"><a href="#/" onclick="Delete();">←</a></td>
+        </tr>
+        <br>
+        <tr>
+          <td class="btn"><a href="#/" onclick="formül(this);">1/x</a></td>
+          <td class="btn"><a href="#/" onclick="formül(this);">x²</a></td>
+          <td class="btn"><a href="#/" onclick="formül(this);" >√x</a></td>
+          <td class="btn"><a href="#/" onclick="operatör(this);">÷</a></td>
+        </tr>
+        <br>
+        <tr>
+          <td class="btn rakam"><a href="#/" onclick="sayiekle(this);">7</a></td>
+          <td class="btn rakam"><a href="#/" onclick="sayiekle(this);">8</a></td>
+          <td class="btn rakam"><a href="#/" onclick="sayiekle(this);">9</a></td>
+          <td class="btn"><a href="#/" onclick="operatör(this);">x</a></td>
+        </tr>
+        <br>
+        <tr>
+          <td class="btn rakam"><a href="#/" onclick="sayiekle(this);">4</a></td>
+          <td class="btn rakam"><a href="#/" onclick="sayiekle(this);">5</a></td>
+          <td class="btn rakam"><a href="#/" onclick="sayiekle(this);">6</a></td>
+          <td class="btn"><a href="#/" onclick="operatör(this);">-</a></td>
+        </tr>
+        <br>
+        <tr>
+          <td class="btn rakam"><a href="#/" onclick="sayiekle(this);">1</a></td>
+          <td class="btn rakam"><a href="#/" onclick="sayiekle(this);">2</a></td>
+          <td class="btn rakam"><a href="#/" onclick="sayiekle(this);">3</a></td>
+          <td class="btn"><a href="#/" onclick="operatör(this);">+</a></td>
+        </tr>
+        <br>
+        <tr> 
+          <td class="btn"><a href="#/" onclick="formül(this);">+/-</a></td>
+          <td class="btn hesapla"><a href="#/" onclick="sayiekle(this);">0</a></td>
+          <td class="btn"><a href="#/" >,</a></td>
+          <td class="btn"><a href="#/" onclick="hesapla(this);">=</a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+body {
+    background:pink;
+}
+
+.sayfa {
+    width: 360px;
+    margin: auto ;
+}
+.kafa {
+    display: flex;
+    width: 45px;
+    height: 5px;
+    align-items: center;
+    /* border: 2px solid red; */
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  /* .kafa h1 {
+    color: purple;
+    font-size: 50px;
+    animation: fade 2s linear infinite;
+  } */
+ h1 {
+    padding-left: 10px;
+    font-size: 50px;
+    color:maroon;
+    display: flex;
+    width: 45px;
+    height: 5px;
+    align-items: center;
+    /* border: 2px solid red; */
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    animation: fade 2s linear infinite;
+     */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+table {
+    background: purple;
+    border-spacing: 5px;
+    text-align:center;
+}
+
+table .btn {
+    width: 100px;
+    background: black;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 1.5em;
+}
+#islem, #gosterge {
+    padding: 5px;
+    text-align: right;
+}
+
+#islem {
+    height: 60px;
+    background: gainsboro;
+    color:black;
+    font-size: 1.8em;
+    text-align: right;
+    line-height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+@keyframes fade {
+    from {
+      color: rgb(24, 9, 2);
+    }
+    50% {
+      color: rgba(3, 16, 65, 0);
+    }
+    70% {
+      color: rgb(217, 113, 194)
+    }
+    to {
+      color: rgb(90, 4, 61);
+    }
+}
